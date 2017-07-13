@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="UTF-B"
+    <title>My Great Website</title>
+  </head>
+
+
+  <body>
+    <h1>Hi there again</h1>
+
+  
+    <div>
+      My first type of content
+
+      <div>
+        My second type of content herrrrrr
+      </div>
+
+      <div>
+        My third type of content goes here
+      </div>
+    </div>
+  </body>
+
+</html>
