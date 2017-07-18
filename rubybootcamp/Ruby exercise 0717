@@ -1,0 +1,23 @@
+require 'rspec'
+require 'benchmark'
+
+arr = Array.new(1000) { rand 1000 }
+
+arr.sort.last
+
+array_of_elements.each do |i|
+  if i > new_max
+    new_max = i
+  end
+end
+
+new_max
+
+Benchmark.bm(10) do |x|
+  x.report('Each: ') { new_max arr }
+  x.report('Sorted: ') { arr.sort.last }
+end
+
+
+#def new_max array_of_elements
+#end
