@@ -18,7 +18,5 @@ Bundler.require(*Rails.groups)
 
 module DevcampPortfolio
   class Application < Rails::Application
-    config.generators do 
-    end
   end
 end
