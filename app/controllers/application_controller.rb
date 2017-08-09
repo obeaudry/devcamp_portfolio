@@ -3,4 +3,11 @@ class ApplicationController < ActionController::Base
   include DeviseWhitelist
   include SetSource
   include DefaultPageContent
+  
+  before_action :set_copyright
+
+  def set_copyright
+    @copyright = BeaudryViewTool::Renderer.copyright 'Owen Beaudry', 'All rights reserved'
+  end
 end
+
